@@ -41,5 +41,4 @@ def play
     turn(board)
     count += 1 
   end
-end 
 end
