@@ -37,7 +37,8 @@ end
 
 # Define your play method below
 def play
-  count = log10until count == 9 do  
+  count = 0  
+  until count == 9 do  
     turn(board)
     count += 1 
   end
